@@ -5,7 +5,8 @@
 * **NIM:** 0102524723
 * **Kelompok Topik:** Topik A — Buku Bacaan (Digit NIM terakhir: 3)
 * **Mata Kuliah:** Pemrograman Bergerak (3 SKS)
-* **Dosen Pengampu:** Dody
+* **Dosen Pengampu:** Dody Haryadi
+* **Link github:** https://github.com/martiochandra/Application_BukuKu.git
 
 ## Deskripsi Aplikasi
 **BukuKu** adalah aplikasi Android berbasis Kotlin dan Jetpack Compose untuk mencatat daftar buku bacaan pribadi beserta status penyelesaian bacanya (`Belum dibaca` / `Sudah dibaca`). Aplikasi menerapkan arsitektur berlapis (*Compose UI → ViewModel + StateFlow → Repository → Room Database & Preferences DataStore*) sehingga daftar buku dan preferensi tampilan tetap tersimpan secara lokal meskipun aplikasi ditutup.
@@ -30,7 +31,7 @@
 4. Jalankan proyek pada Emulator Android atau perangkat fisik (minimal Android 7.0 / API 24) dengan menekan tombol **Run**.
 
 ## Tautan Video Penjelasan & Demonstrasi
-* **Link Video (Google Drive):** [Tempelkan tautan file video MP4 Anda setelah diunggah ke Google Drive]
+* **Link Video (Google Drive):** [https://drive.google.com/file/d/1yJzWIM_zBm15XNMVTS-Vny8sS3wVZh9s/view?usp=drive_link]
 
 ## Deklarasi Penggunaan AI
 * **Menggunakan AI:** Ya
