@@ -64,10 +64,16 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
 
     // Room Database (menggunakan kapt)
-    implementation("androidx.room:room-runtime:2.6.1")
-    implementation("androidx.room:room-ktx:2.6.1")
-    kapt("androidx.room:room-compiler:2.6.1")
-
+    val roomVersion = "2.7.1"
+    implementation("androidx.room:room-runtime:$roomVersion")
+    implementation("androidx.room:room-ktx:$roomVersion")
+    kapt("androidx.room:room-compiler:$roomVersion")
     // Preferences DataStore
     implementation("androidx.datastore:datastore-preferences:1.0.0")
+    // Material Icons untuk Jetpack Compose
+    implementation("androidx.compose.material:material-icons-core")
+
+}
+kapt {
+    correctErrorTypes = true
 }
